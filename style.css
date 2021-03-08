@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial;
+}
+body{
+    overflow-y: hidden;
+}
+:root{
+    --blueText: #acd5f2;
+    --blueButton: #3db4f2;
+    --bluegrayText: #5c728a;
+    --lightblueBG: #edf1f5;
+}
+.addend, .result{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a1625;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra{
+    height: 500vh;
+    width: 100vw;
+}
+.uno{
+    background-color: #3db4f2;
+}
+.dos{
+    background-color: #acd5f2;
+}
+.tres{
+    background-color: antiquewhite;
+}
+.quatro{
+    background-color: brown;
+}
+.singko{
+    background-color: black;
+}
+#n1 a{
+    position: absolute;
+    bottom: 0;
+}
+.wrapper{
+    position: relative;
+    height: 100%;
+}
+.wrapper a{
+    position: absolute;
+    bottom: 0;
+    left: -560px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+    transition: .5s;
+}
+#n1 a:hover, #n2 a:hover, #result a:hover{
+    cursor: pointer;
+    bottom: 1%;
+    transition: .5s;
+}
+input[type=text]{
+    height: 25vh;
+    width: 50%;
+    color: var(--bluegrayText);
+    font-size: 20vh;
+    text-align: center;
+    background-color: var(--lightblueBG);
+    transition: .5s;
+}
+input:focus{
+    outline: none;
+}
+.operator{
+    width: 100%;
+    height: 100vh;
+    background-color: #3db4f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=submit]{
+    height: 25vh;
+    width: 15%;
+    color: var(--bluegrayText);
+    font-size: 20vh;
+    text-align: center;
+    background-color: var(--lightblueBG);
+    border-radius: 25px;
+    margin-left: 1%;
+    transition: .5s;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    margin-top: -1%;
+    transition: .5s;
+}
+h1{
+    font-size: 25vh;
+    color: white;
+    transition: .5s;
+}
+
+.result{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a1625;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result a{
+    position: absolute;
+    bottom: 0;
+}
